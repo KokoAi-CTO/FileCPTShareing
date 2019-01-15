@@ -51,9 +51,10 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(711, 141);
+            this.pictureBox1.Location = new System.Drawing.Point(1066, 217);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(229, 273);
+            this.pictureBox1.Size = new System.Drawing.Size(344, 420);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -61,19 +62,21 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Romantic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
-            this.label1.Location = new System.Drawing.Point(104, 71);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(156, 109);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(195, 23);
+            this.label1.Size = new System.Drawing.Size(330, 36);
             this.label1.TabIndex = 1;
             this.label1.Text = "Welcome to Monopoly";
             // 
             // Play
             // 
             this.Play.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Play.Location = new System.Drawing.Point(108, 141);
+            this.Play.Location = new System.Drawing.Point(162, 217);
+            this.Play.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Play.Name = "Play";
-            this.Play.Size = new System.Drawing.Size(229, 51);
+            this.Play.Size = new System.Drawing.Size(344, 78);
             this.Play.TabIndex = 3;
             this.Play.Text = "Play";
             this.Play.UseVisualStyleBackColor = true;
@@ -82,9 +85,10 @@
             // BtnLoadSave
             // 
             this.BtnLoadSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnLoadSave.Location = new System.Drawing.Point(108, 225);
+            this.BtnLoadSave.Location = new System.Drawing.Point(162, 346);
+            this.BtnLoadSave.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BtnLoadSave.Name = "BtnLoadSave";
-            this.BtnLoadSave.Size = new System.Drawing.Size(229, 51);
+            this.BtnLoadSave.Size = new System.Drawing.Size(344, 78);
             this.BtnLoadSave.TabIndex = 4;
             this.BtnLoadSave.Text = "Load Saved Game";
             this.BtnLoadSave.UseVisualStyleBackColor = true;
@@ -93,9 +97,10 @@
             // BtnRules
             // 
             this.BtnRules.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnRules.Location = new System.Drawing.Point(108, 314);
+            this.BtnRules.Location = new System.Drawing.Point(162, 483);
+            this.BtnRules.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.BtnRules.Name = "BtnRules";
-            this.BtnRules.Size = new System.Drawing.Size(229, 51);
+            this.BtnRules.Size = new System.Drawing.Size(344, 78);
             this.BtnRules.TabIndex = 5;
             this.BtnRules.Text = "Game Rules";
             this.BtnRules.UseVisualStyleBackColor = true;
@@ -103,12 +108,14 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.helpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1044, 24);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(9, 3, 0, 3);
+            this.menuStrip1.Size = new System.Drawing.Size(1566, 35);
             this.menuStrip1.TabIndex = 6;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -120,30 +127,30 @@
             this.toolStripMenuItem1,
             this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(50, 29);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // newToolStripMenuItem
             // 
             this.newToolStripMenuItem.Name = "newToolStripMenuItem";
-            this.newToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(239, 30);
             this.newToolStripMenuItem.Text = "New";
             // 
             // loadSavedGameToolStripMenuItem
             // 
             this.loadSavedGameToolStripMenuItem.Name = "loadSavedGameToolStripMenuItem";
-            this.loadSavedGameToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.loadSavedGameToolStripMenuItem.Size = new System.Drawing.Size(239, 30);
             this.loadSavedGameToolStripMenuItem.Text = "Load Saved Game";
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(165, 6);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(236, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(239, 30);
             this.exitToolStripMenuItem.Text = "Exit";
             // 
             // helpToolStripMenuItem
@@ -151,30 +158,31 @@
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.aboutToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(61, 29);
             this.helpToolStripMenuItem.Text = "Help";
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(146, 30);
             this.aboutToolStripMenuItem.Text = "About";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(410, 410);
+            this.button1.Location = new System.Drawing.Point(615, 631);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(112, 35);
             this.button1.TabIndex = 7;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // Welcome
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(1044, 477);
+            this.ClientSize = new System.Drawing.Size(1566, 734);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.BtnRules);
             this.Controls.Add(this.BtnLoadSave);
@@ -183,6 +191,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Welcome";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
